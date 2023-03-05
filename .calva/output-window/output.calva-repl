@@ -1,0 +1,223 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉clojure-sample.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉clojure-sample.core꞉> 
+(+ 1 1)
+2
+clj꞉clojure-sample.core꞉> 
+#function[clojure-sample.core/foo]
+clj꞉clojure-sample.core꞉> 
+#'clojure-sample.core/foo
+clj꞉clojure-sample.core꞉> 
+#function[clojure-sample.core/foo]
+clj꞉clojure-sample.core꞉> 
+#function[clojure-sample.core/foo]
+clj꞉clojure-sample.core꞉> 
+#function[clojure-sample.core/foo]
+clj꞉clojure-sample.core꞉> 
+#function[clojure-sample.core/foo]
+clj꞉clojure-sample.core꞉> 
+#function[clojure-sample.core/foo]
+clj꞉clojure-sample.core꞉> 
+#'clojure-sample.core/foo
+clj꞉clojure-sample.core꞉> 
+#'clojure-sample.core/foo
+clj꞉clojure-sample.core꞉> 
+; Execution error (ArityException) at clojure-sample.core/eval7681 (form-init7969027015326527510.clj:8).
+; Wrong number of args (0) passed to: clojure-sample.core/foo
+clj꞉clojure-sample.core꞉> 
+; Execution error (ArityException) at clojure-sample.core/eval7683 (form-init7969027015326527510.clj:8).
+; Wrong number of args (0) passed to: clojure-sample.core/foo
+clj꞉clojure-sample.core꞉> 
+; Execution error (ArityException) at clojure-sample.core/eval7685 (form-init7969027015326527510.clj:8).
+; Wrong number of args (0) passed to: clojure-sample.core/foo
+clj꞉clojure-sample.core꞉> 
+; Execution error (ArityException) at clojure-sample.core/eval7687 (form-init7969027015326527510.clj:8).
+; Wrong number of args (0) passed to: clojure-sample.core/foo
+clj꞉clojure-sample.core꞉> 
+() Hello, World!
+nil
+clj꞉clojure-sample.core꞉> 
+; Execution error (ClassCastException) at clojure-sample.core/eval7691 (form-init7969027015326527510.clj:8).
+; java.lang.Long cannot be cast to clojure.lang.IFn
+clj꞉clojure-sample.core꞉> 
+; Syntax error compiling at (src/clojure_sample/core.clj:8:5).
+; Unable to resolve symbol: z in this context
+clj꞉clojure-sample.core꞉> 
+Hell Worldnil
+clj꞉clojure-sample.core꞉> 
+Hell Worldnil
+clj꞉clojure-sample.core꞉> 
+Hell Worldnil
+clj꞉clojure-sample.core꞉> 
+Hell Worldnil
+clj꞉clojure-sample.core꞉> 
+Hell Worldnil
+clj꞉clojure-sample.core꞉> 
+Hell Worldnil
+clj꞉clojure-sample.core꞉> 
+Hell Worldnil
+clj꞉clojure-sample.core꞉> 
+Hell Worldnil
+clj꞉clojure-sample.core꞉> 
+Hell Worldnil
+clj꞉clojure-sample.core꞉> 
+Hell Worldnil
+clj꞉clojure-sample.core꞉> 
+Hell World
+nil
+clj꞉clojure-sample.core꞉> 
+3
+clj꞉clojure-sample.core꞉> 
+2
+clj꞉clojure-sample.core꞉> 
+10
+clj꞉clojure-sample.core꞉> 
+10
+clj꞉clojure-sample.core꞉> 
+([1 2] 3 4)
+clj꞉clojure-sample.core꞉> 
+; Execution error (ClassCastException) at clojure-sample.core/eval7726 (form-init7969027015326527510.clj:3).
+; java.lang.Long cannot be cast to clojure.lang.IFn
+clj꞉clojure-sample.core꞉> 
+([1 2] 3 4)
+clj꞉clojure-sample.core꞉> 
+; Execution error (ClassCastException) at clojure-sample.core/eval7730 (form-init7969027015326527510.clj:3).
+; java.lang.Long cannot be cast to clojure.lang.IFn
+clj꞉clojure-sample.core꞉> 
+(1 3 4)
+clj꞉clojure-sample.core꞉> 
+1
+clj꞉clojure-sample.core꞉> 
+; Execution error (ClassCastException) at clojure-sample.core/eval7736 (form-init7969027015326527510.clj:5).
+; java.lang.Long cannot be cast to clojure.lang.IFn
+clj꞉clojure-sample.core꞉> 
+1
+clj꞉clojure-sample.core꞉> 
+; Syntax error compiling at (src/clojure_sample/core.clj:7:1).
+; Unable to resolve symbol: doc in this context
+clj꞉clojure-sample.core꞉> 
+; Syntax error compiling at (src/clojure_sample/core.clj:7:1).
+; Unable to resolve symbol: source in this context
+clj꞉clojure-sample.core꞉> 
+#function[clojure-sample.core/eval7742/fn--7743]
+clj꞉clojure-sample.core꞉> 
+#function[clojure-sample.core/eval7746/add--7747]
+clj꞉clojure-sample.core꞉> 
+; Syntax error compiling at (src/clojure_sample/core.clj:9:1).
+; Unable to resolve symbol: add in this context
+clj꞉clojure-sample.core꞉> 
+; Syntax error compiling at (src/clojure_sample/core.clj:9:1).
+; Unable to resolve symbol: add in this context
+clj꞉clojure-sample.core꞉> 
+3
+clj꞉clojure-sample.core꞉> 
+3
+clj꞉clojure-sample.core꞉> 
+; Syntax error compiling at (src/clojure_sample/core.clj:11:1).
+; Unable to resolve symbol: add in this context
+clj꞉clojure-sample.core꞉> 
+; Syntax error compiling at (src/clojure_sample/core.clj:11:1).
+; Unable to resolve symbol: add in this context
+clj꞉clojure-sample.core꞉> 
+3628800
+clj꞉clojure-sample.core꞉> 
+1
+clj꞉clojure-sample.core꞉> 
+2
+clj꞉clojure-sample.core꞉> 
+6
+clj꞉clojure-sample.core꞉> 
+2
+clj꞉clojure-sample.core꞉> 
+2
+clj꞉clojure-sample.core꞉> 
+2
+clj꞉clojure-sample.core꞉> 
+10
+clj꞉clojure-sample.core꞉> 
+11
+clj꞉clojure-sample.core꞉> 
+1
+clj꞉clojure-sample.core꞉> 
+1
+clj꞉clojure-sample.core꞉> 
+100
+clj꞉clojure-sample.core꞉> 
+19
+clj꞉clojure-sample.core꞉> 
+; Syntax error compiling at (src/clojure_sample/core.clj:3:1).
+; Unable to resolve symbol: doc in this context
+clj꞉clojure-sample.core꞉> 
+(2 3 4 5 6)
+clj꞉clojure-sample.core꞉> 
+; Execution error (ClassCastException) at clojure-sample.core/eval7817 (form-init7969027015326527510.clj:3).
+; clojure.lang.PersistentVector cannot be cast to java.lang.Number
+clj꞉clojure-sample.core꞉> 
+(5 7 9)
+clj꞉clojure-sample.core꞉> 
+(2 3 4)
+clj꞉clojure-sample.core꞉> 
+; Syntax error compiling at (src/clojure_sample/core.clj:5:1).
+; Unable to resolve symbol: f in this context
+clj꞉clojure-sample.core꞉> 
+; Syntax error compiling at (src/clojure_sample/core.clj:5:1).
+; Unable to resolve symbol: f in this context
+clj꞉clojure-sample.core꞉> 
+(2 3 4)
+clj꞉clojure-sample.core꞉> 
+(2 3 4)
+clj꞉clojure-sample.core꞉> 
+(2 3 4)
+clj꞉clojure-sample.core꞉> 
+#'clojure-sample.core/f
+clj꞉clojure-sample.core꞉> 
+(2 3 4)
+clj꞉clojure-sample.core꞉> 
+(2 3 4)
+clj꞉clojure-sample.core꞉> 
+(2 3 6)
+clj꞉clojure-sample.core꞉> 
+8
+clj꞉clojure-sample.core꞉> 
+(1 2)
+clj꞉clojure-sample.core꞉> 
+5
+clj꞉clojure-sample.core꞉> 
+7
+clj꞉clojure-sample.core꞉> 
+(10 20 30)
+clj꞉clojure-sample.core꞉> 
+(10 20)
+clj꞉clojure-sample.core꞉> 
+(10 20 30 40 50)
+clj꞉clojure-sample.core꞉> 
+[10 20 30 40 50]
+clj꞉clojure-sample.core꞉> 
+(0 0 0 0 0)
+clj꞉clojure-sample.core꞉> 
+(5 5 5 5 5)
+clj꞉clojure-sample.core꞉> 
+10
+clj꞉clojure-sample.core꞉> 
+20
+clj꞉clojure-sample.core꞉> 
+10
+clj꞉clojure-sample.core꞉> 
+; nREPL Connection was closed
